@@ -23,7 +23,12 @@ main {
     gap: 20px;
 }
 
-.divAltura, .divPeso, .divCalc {
+.entradas {
+    display: flex;
+    gap: 10px;
+}
+
+.entradas > * {
     width: 90%;
     display: flex;
     flex-direction: column;

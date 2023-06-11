@@ -10,19 +10,24 @@
 </head>
 <body>
     <main>
-        <h2>Cálculo IMC</h2>
-        <div class="divAltura">
-            <label for="altura">Altura (M)</label>
-            <input type="number" id="altura" />
-        </div>
-
-        <div class="divPeso">
-            <label for="peso">Peso (KG)</label>
-            <input type="number" id="peso" />
+        <h2>Cálculo Média Ponderada</h2>
+        <div class="entradas">
+            <div class="valores">
+                <h3>Valores</h3>
+                <input type="text"/>
+                <input type="text"/>
+                <input type="text"/>
+            </div>
+            <div class="pesos">
+                <h3>Pesos</h3>
+                <input type="text"/>
+                <input type="text"/>
+                <input type="text"/>
+            </div>
         </div>
 
         <div class="divCalc">
-            <button onclick="calcIMC()">Calcular</button>
+            <button onclick="calcularMediaPonderada()">Calcular</button>
         </div>
 
         <span id="resultado"></span>
